@@ -33,3 +33,6 @@
 
 */build/*
 sdkconfig
+
+# Code 
+*/.vscode/temp/*.VC.DB*

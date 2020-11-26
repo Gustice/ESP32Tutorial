@@ -18,3 +18,15 @@ NOTE: This are just fast notes which i can bring in final form later
 		- Note hint after compilation -> flash-command
 	- idf.py -p COMx flash monitor
 
+
+## Step 2 - Setup Project - Get familiar with editor
+- Copy `%IDF_PATH%/examples/get-started/hello_world`
+- Open path in Command line
+- >C/C++: Edit Configurations (JSON)
+
+## Step 3 
+
+## Step 4 - Setup Cpp-Project
+
+## Hacks
+- Setup Shortcut for AgentRansack to search idf

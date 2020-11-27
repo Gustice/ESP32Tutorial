@@ -22,9 +22,14 @@ NOTE: This are just fast notes which i can bring in final form later
 ## Step 2 - Setup Project - Get familiar with editor
 - Copy `%IDF_PATH%/examples/get-started/hello_world`
 - Open path in Command line
-- >C/C++: Edit Configurations (JSON)
+- > C/C++: Edit Configurations (JSON)
+- >Tasks: Configure Task
 
-## Step 3 
+- Note that Build is default task in Build Group
+- Note that output is prompted to built-in-console
+
+## Step 3 - Implement simple software module
+
 
 ## Step 4 - Setup Cpp-Project
 

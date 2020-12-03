@@ -6,7 +6,7 @@
                 "${workspaceRoot}/main/**",
                 "${workspaceRoot}/components/**",
                 "${workspaceRoot}/build/config/**",
-                "E:/Software/Espressif/tools/xtensa-esp32-elf/esp-2020r1-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/include"
+                "C:/Espressif/tools/xtensa-esp32-elf/esp-2020r1-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/include"
             ],
             "defines": [
                 "LOG_LOCAL_LEVEL=ESP_LOG_VERBOSE",

@@ -1,12 +1,14 @@
-{
+{ // https://code.visualstudio.com/docs/cpp/c-cpp-properties-schema-reference
     "configurations": [
         {
             "name": "ESP32-Win",
-            "includePath": [
+            "includePath": [ // Folder with header to be included -> For intellisens engine
                 "${workspaceRoot}/main/**",
                 "${workspaceRoot}/components/**",
+                "${env:IDF_PATH}/components/**",
                 "${workspaceRoot}/build/config/**",
-                "E:/Software/Espressif/tools/xtensa-esp32-elf/esp-2020r1-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/include"
+                // Xtensa-Compieler path probably has to be adjusted
+                "C:/Espressif/tools/xtensa-esp32-elf/esp-2020r1-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/include" 
             ],
             "defines": [
                 "LOG_LOCAL_LEVEL=ESP_LOG_VERBOSE",
@@ -16,7 +18,7 @@
             "cStandard": "c11",
             "cppStandard": "c++17",
             "intelliSenseMode": "clang-x64",
-            "browse": {
+            "browse": { // Tag-Parser for Go-To-Definition-Function or tag-database in case intellisens doesn't find a thing
                 "path": [
                     "${workspaceRoot}/main/**",
                     "${workspaceRoot}/components/**",

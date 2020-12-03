@@ -33,6 +33,10 @@
 
 */build/*
 sdkconfig
+sdkconfig.old
 
 # Code 
 */.vscode/temp/*.VC.DB*
+
+
+_local/**

@@ -4,7 +4,7 @@ echo Compiling small base with gnu c++
 
 :: Compiling static library
 g++ -c -o _build\statLib.o statLib\statLib.cpp
-ar rcs statLib.lib _build\statLib.o 
+ar rcs _build\statLib.lib _build\statLib.o 
 
 :: Compiling dynamic library
 g++ -c -o _build\dynLib.o dynLib\dynLib.cpp

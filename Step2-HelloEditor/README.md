@@ -1,18 +1,26 @@
 # Notes to Editor Example
+Note preconditions in above readme (../ReadMe.md)
 
 ## Init
-- This exmaple is from `%IDF_PATH%\examples\get-started\hello_world`. 
-- Note that all files except the bare minimum is removed.
-``` text
-Project
-	+ main
-		- CMakeLists.txt
-		- Hello_world.c
-	- CMakeLists.txt 		# <- TopLevel C-Make
-```
-
-## Execution
-- Note preconditions in above readme (../ReadMe.md)
+- Prepare the project like in previous step
 - Start terminal in project folder (folder of this readme)
 - Execute `%IDF_PATH%\export.bat`, to have the environment initialized
-- Execute `code .` in root path
+- Execute `code .` in root path, after you executed `export.bat`. This makes the exported environment available for VS-Code.
+- Execute `C/C++: Edit Configurations (JSON)` to create `c_cpp_properties.json`. You can also copy it from a template
+- Execute `Tasks: Configure Task` to create `tasks.json`. You can also copy it from a template
+
+## Execution
+- Now you can use all IDF-commands
+	- `idf.py set-target <target>`
+	- `idf.py menuconfig` (this might be buggy in this case execute it again in terminal)
+	- `idf.py build`
+	- `idf.py -p COMx flash monitor`
+- Note that this project contains config files for VS Code 
+	- `c_cpp_properties.json` configures the intelisense engine (also to navigate to definition)
+	- `tasks.json` configures shortcuts for common IDF-tasks
+	- Hit `Ctrl+Shift+P` and type `Tasks: Run Task` and hit enter. This will display you all options defined in `tasks.json`.
+	- The default build task can also run by shortcut (normally `Ctrl+Shift+B`)
+	- If you use the defined task to build the app you will note that the build problems are displayed in the problems view.
+
+## Known Issues
+- The problems in the problems view that result from parsed compiler error messages are not clickable the problem is because of the implementation the  links are dislocated. The fancy formatted view helps to locate the position of the problem though. 

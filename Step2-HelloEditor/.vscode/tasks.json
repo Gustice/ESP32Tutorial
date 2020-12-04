@@ -15,8 +15,8 @@
             },
             "problemMatcher": []
         },
-        // Build Environment
-        {
+
+        { // Build Environment
             "label": "Build project",
             "group": {
                 "kind": "build",
@@ -44,9 +44,8 @@
                 }
             }
         },
-
-        // Flash Environment and Monitor
-        {
+        
+        { // Flash Environment and Monitor
             "label": "flash & monitor",
             // "group": {
             //     "kind": "test",
@@ -66,15 +65,14 @@
             "problemMatcher": []
         },
 
-        // Clean Project
-        {
+        { // Clean Project
             "label": "Clean Project",
             "command": "idf.py",
             "type": "shell",
             "args": ["clean"],
             "problemMatcher": []
         },
-        {
+        { // Full-Clean Project
             "label": "Full-Clean Project",
             "command": "idf.py",
             "type": "shell",

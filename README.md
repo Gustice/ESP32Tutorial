@@ -13,3 +13,5 @@ Installed programms:
     - MINGW 
     - CMake
 
+Note that each folder containes detailed instructions to use appropriate folder.
+I tried to describe also parts for completely new user.

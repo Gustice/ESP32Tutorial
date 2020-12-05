@@ -3,7 +3,7 @@ Note preconditions in above readme (../ReadMe.md)
 
 
 ## Init
-- This exmaple is from `%IDF_PATH%\examples\get-started\hello_world`. 
+- This example is from `%IDF_PATH%\examples\get-started\hello_world`. 
 - Note that all files except the bare minimum is removed.
 ``` text
 Project
@@ -17,7 +17,7 @@ Project
 - Start terminal in project folder (folder of this readme)
 - Execute `%IDF_PATH%\export.bat`, to have the environment initialized
 - Execute `idf.py set-target <target>` (apply ESP32 or ESP32S2 for target)
-- Execution of `menuconfig` is not neccessary in this case.
+- Execution of `menuconfig` is not necessary in this case.
 - Execute `idf.py build` to compile the project. Note that:
 	- build-directory is created
 	- project is compiled with it's dependencies to build

@@ -1,5 +1,7 @@
 # ESP32Tutorial
-StepByStep Tutorial for ESP32-Projects with VS-Code
+StepByStep Tutorial for ESP32-Projects with VS-Code.
+
+**Note**: Each part shows the result of the part. The instruction is given in readme
 
 ## Preconditions
 Installed programms:
@@ -13,5 +15,5 @@ Installed programms:
     - MINGW 
     - CMake
 
-Note that each folder containes detailed instructions to use appropriate folder.
+Note that each folder contains detailed instructions to use appropriate folder.
 I tried to describe also parts for completely new user.

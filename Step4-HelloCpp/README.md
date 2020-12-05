@@ -19,6 +19,7 @@ Project
     - CMakeLists.txt 		# <- TopLevel C-Make
 ```
 - note that the app_main is the entry point for the RTOS which is compiled in c. Hence you must add a following snippet in main.cpp in order to make it visible for the linker.
+
 ``` C++
 extern "C" { // This switch allows the ROS C-implementation to find this main
 void app_main(void);

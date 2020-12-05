@@ -16,7 +16,7 @@ Note preconditions in above readme (../ReadMe.md)
 	- `idf.py build`
 	- `idf.py -p COMx flash monitor`
 - Note that this project contains config files for VS Code 
-	- `c_cpp_properties.json` configures the intelisense engine (also to navigate to definition)
+	- `c_cpp_properties.json` configures the IntelliSense engine (also to navigate to definition)
 	- `tasks.json` configures shortcuts for common IDF-tasks
 	- Hit `Ctrl+Shift+P` and type `Tasks: Run Task` and hit enter. This will display you all options defined in `tasks.json`.
 	- The default build task can also run by shortcut (normally `Ctrl+Shift+B`)

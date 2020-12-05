@@ -48,7 +48,7 @@ void app_main(void)
         printf("Restarting in %d seconds...\n", i);
         mod.AddValue(i);
         printf("Result is = %d \n", SaturatedAdd(i, i+10));
-        printf("ModulRestul is = %d \n", mod.GetValue() );
+        printf("ModuleResult is = %d \n", mod.GetValue() );
         
         vTaskDelay(3000 / portTICK_PERIOD_MS);
     }

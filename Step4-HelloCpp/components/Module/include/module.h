@@ -7,8 +7,8 @@
  * 
  * @copyright Copyright (c) 2020
   */
-#pragma once
 
+#pragma once
 
 class Module
 {

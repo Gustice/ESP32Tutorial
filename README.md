@@ -14,8 +14,8 @@ Installed programs:
     - See [Getting started](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html) for details
     - Register path to cloned IDF as Environment variable `%IDF_PATH%`
 - To compile and run tests you need also to install on you machine
-    - MinGW 
-    - CMake
+    - [MinGW](https://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/)
+    - [CMake](https://cmake.org/download/) 
 
 **Notes**
 - You may use the [Espressif plugin](https://marketplace.visualstudio.com/items?itemName=espressif.esp-idf-extension) on VS Code but actually i wasn't able to get this thing to work.

@@ -17,7 +17,7 @@ Project
 - Start terminal in project folder (folder of this readme)
 - Execute `%IDF_PATH%\export.bat`, to have the environment initialized
 - Execute `idf.py set-target <target>` (apply ESP32 or ESP32S2 for target)
-- Execution of `menuconfig` is not necessary in this case.
+- Execution of `idf.py menuconfig` is not necessary in this case.
 - Execute `idf.py build` to compile the project. Note that:
 	- build-directory is created
 	- project is compiled with it's dependencies to build

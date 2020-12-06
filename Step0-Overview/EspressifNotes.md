@@ -32,7 +32,7 @@ provide initially.
 [ESP32-Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)
 [ESP32-Reference-Manual](https://www.espressif.com/sites/default/files/documentation/esp32_technical_reference_manual_en.pdf)
 
-of corse you can also look up all datasheets from the manufacturer.
+of course you can also look up all datasheets from the manufacturer.
 
 ## Available Platforms
 The overview of available SoC is listed at [SoC Overview](https://www.espressif.com/en/products/socs). These SoCs are the basis of available modules and Dev-Kits
@@ -152,9 +152,6 @@ Note: Most digital Interfaces can be connected to arbitrary pins. JTAG / SD / SD
 - 16x LED-PWM
 
 
-## ToolChain
+## Tool chain
 Follow the instructions on [Getting started](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html) 
 to get the appropriate toolchain for your ESP-projects
-
-https://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/
-

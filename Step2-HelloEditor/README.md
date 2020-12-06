@@ -10,15 +10,15 @@ Note preconditions in above readme (../ReadMe.md)
 - Execute `Tasks: Configure Task` to create `tasks.json`. You can also copy it from a template
 
 ## Execution
-- Now you can use all IDF-commands
+- You can type the `idf.py` commands into the build in terminal.
+- But you can also use defined tasks now: Hit `Ctrl+Shift+P` and type `Tasks: Run Task` and hit enter. This will display you all options defined in `tasks.json`. (Note `idf.py set-target <target>` is still to be input in shell)
 	- `idf.py set-target <target>`
-	- `idf.py menuconfig` (this might be buggy in this case execute it again in terminal)
-	- `idf.py build`
-	- `idf.py -p COMx flash monitor`
+	- Run `>Tasks: Run Task` -> Select `Menuconfig` instead of typing `idf.py menuconfig` (this might be buggy in this case execute it again in terminal)
+	- Press `Ctrl+Shift+B` or run `>Tasks: Run Task` -> select `Build Project` instead of typing `idf.py build`
+	- Run `>Tasks: Run Task` -> select `Flash & Monitor` instead of typing `idf.py -p COMx flash monitor`
 - Note that this project contains config files for VS Code 
 	- `c_cpp_properties.json` configures the IntelliSense engine (also to navigate to definition)
 	- `tasks.json` configures shortcuts for common IDF-tasks
-	- Hit `Ctrl+Shift+P` and type `Tasks: Run Task` and hit enter. This will display you all options defined in `tasks.json`.
 	- The default build task can also run by shortcut (normally `Ctrl+Shift+B`)
 	- If you use the defined task to build the app you will note that the build problems are displayed in the problems view.
 

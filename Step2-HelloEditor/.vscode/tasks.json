@@ -6,7 +6,7 @@
     "tasks": [
 
         { // Init by MenuConfig
-            "label": "menuconfig",
+            "label": "Menuconfig",
             "type": "shell",
             "command": "idf.py",
             "args": ["menuconfig"],
@@ -17,7 +17,7 @@
         },
 
         { // Build Environment
-            "label": "Build project",
+            "label": "Build Project",
             "group": {
                 "kind": "build",
                 "isDefault": true
@@ -46,7 +46,7 @@
         },
         
         { // Flash Environment and Monitor
-            "label": "flash & monitor",
+            "label": "Flash & Monitor",
             // "group": {
             //     "kind": "test",
             //     "isDefault": true
